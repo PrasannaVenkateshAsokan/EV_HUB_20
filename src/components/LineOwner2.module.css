@@ -1,0 +1,128 @@
+.robertBoschGmbh {
+  position: absolute;
+  top: 47px;
+  left: 62px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+.chains,
+.garages {
+  top: 20px;
+  display: inline-block;
+}
+.chains {
+  position: absolute;
+  left: 623px;
+  font-weight: 500;
+  width: 52px;
+}
+.garages {
+  left: 848px;
+  width: 63px;
+}
+.div,
+.div1,
+.garages,
+.germany,
+.location {
+  position: absolute;
+  font-weight: 500;
+}
+.location {
+  top: 20px;
+  left: 1073px;
+  display: inline-block;
+  width: 67px;
+}
+.div,
+.div1,
+.germany {
+  top: 47px;
+  left: 644px;
+  color: var(--color-darkslateblue);
+}
+.div1,
+.germany {
+  left: 871px;
+}
+.germany {
+  left: 1076px;
+}
+.lineOwnerChild {
+  position: absolute;
+  left: 534.5px;
+}
+.lineOwnerChild,
+.lineOwnerInner,
+.lineOwnerItem {
+  top: 18.5px;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 51px;
+}
+.lineOwnerItem {
+  position: absolute;
+  left: 759.5px;
+}
+.lineOwnerInner {
+  left: 984.5px;
+}
+.lineDiv,
+.lineOwnerInner,
+.owner {
+  position: absolute;
+}
+.lineDiv {
+  top: 18.5px;
+  left: 1209.5px;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 51px;
+}
+.owner {
+  top: 20px;
+  left: 62px;
+  font-weight: 500;
+  display: inline-block;
+  width: 52px;
+}
+.groupIcon,
+.vectorIcon {
+  position: absolute;
+  height: 28.24%;
+  width: 1.77%;
+  top: 36.47%;
+  right: 2.87%;
+  bottom: 35.29%;
+  left: 95.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 27.06%;
+  width: 1.69%;
+  top: 38.82%;
+  right: 6.11%;
+  bottom: 34.12%;
+  left: 92.2%;
+}
+.lineOwner {
+  position: absolute;
+  top: 105px;
+  left: calc(50% - 679.5px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  width: 100%;
+  height: 85px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-montserrat);
+}

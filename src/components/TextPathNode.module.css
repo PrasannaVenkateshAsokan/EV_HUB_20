@@ -1,0 +1,97 @@
+.letsFindAnOfficeNearYou {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.complexShapeNodeChild {
+  height: 40px;
+  width: 125px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.save {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.complexShapeNode,
+.complexShapeNodeItem {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.complexShapeNode {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-21xl) var(--padding-3xs)
+    var(--padding-23xl);
+  min-width: 81px;
+  z-index: 1;
+}
+.complexShapeNodeItem {
+  height: 40px;
+  width: 125px;
+  position: relative;
+  display: none;
+}
+.close {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.complexShapeNode1,
+.waveShapeNode {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.complexShapeNode1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-19xl) var(--padding-3xs)
+    var(--padding-20xl);
+  min-width: 81px;
+  z-index: 1;
+}
+.waveShapeNode {
+  flex-wrap: wrap;
+  gap: 0 15px;
+}
+.spiralShapeNode,
+.textPathNode,
+.waveShapeNode {
+  display: flex;
+  justify-content: flex-start;
+}
+.spiralShapeNode {
+  width: 319px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xl);
+  box-sizing: border-box;
+}
+.textPathNode {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 26px 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,169 @@
+.image1Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.outputGenerator {
+  align-self: stretch;
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.vehicles {
+  position: relative;
+  font-weight: 500;
+}
+.jobCards {
+  white-space: nowrap;
+}
+.jobCards,
+.management {
+  position: relative;
+  font-weight: 500;
+}
+.divfixedIcon {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.branchingStructure,
+.connectionHandler {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectionHandler {
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.branchingStructure {
+  flex-direction: row;
+  gap: 0 6px;
+}
+.sortingNodeChild {
+  height: 3px;
+  width: 120px;
+  position: relative;
+}
+.sortingNode {
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.sequenceManager {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8.5px 0;
+  color: var(--color-darkslateblue);
+}
+.decisionMaker,
+.errorHandler,
+.sequenceManager {
+  display: flex;
+  align-items: flex-start;
+}
+.errorHandler {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-montserrat);
+}
+.decisionMaker {
+  width: 540px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs-5);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signalEmitterIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.linkHome,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 20px;
+}
+.vectorIcon {
+  top: 3px;
+  left: 19px;
+  width: 12px;
+  height: 5px;
+}
+.priorityManager {
+  width: 31px;
+  height: 20px;
+  position: relative;
+}
+.timingController {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.accessPoint,
+.container,
+.timingController {
+  display: flex;
+  justify-content: flex-start;
+}
+.accessPoint {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 16px;
+}
+.container {
+  height: 71px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.conditionChecker,
+.inputCollector {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.inputCollector {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.conditionChecker {
+  width: 1422px;
+  height: 93px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+  .errorHandler {
+    display: none;
+  }
+  .decisionMaker {
+    width: 0;
+  }
+}

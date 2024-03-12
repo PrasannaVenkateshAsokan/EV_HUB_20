@@ -1,0 +1,313 @@
+.owners {
+  margin: 0;
+  position: absolute;
+  top: 149px;
+  left: 41px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameOwnerIcon,
+.rectangleFrameIcon,
+.searchBoxIcon {
+  position: absolute;
+  height: 2.44%;
+  width: 1.74%;
+  top: 2.73%;
+  right: 4.93%;
+  bottom: 94.82%;
+  left: 93.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameOwnerIcon,
+.searchBoxIcon {
+  height: 1.95%;
+  width: 1.04%;
+  top: 3.13%;
+  right: 2.78%;
+  bottom: 94.92%;
+  left: 96.18%;
+}
+.searchBoxIcon {
+  height: 0.49%;
+  width: 0.83%;
+  top: 3.42%;
+  right: 1.67%;
+  bottom: 96.09%;
+  left: 97.5%;
+}
+.imageFrame {
+  border: 2px solid var(--color-gainsboro-100);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 142px;
+  left: 157px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 324px;
+  height: 44px;
+}
+.frameOwnerIcon1 {
+  position: absolute;
+  height: 1.95%;
+  width: 1.39%;
+  top: 15.14%;
+  right: 67.71%;
+  bottom: 82.91%;
+  left: 30.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.searchByOwner {
+  position: absolute;
+  top: 156px;
+  left: 184px;
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  color: var(--color-gray-400);
+}
+.image1Icon {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 178px;
+  height: 93px;
+  object-fit: cover;
+}
+.goToPage,
+.of1,
+.page {
+  position: absolute;
+  top: 4.6px;
+  left: 261px;
+  font-weight: 500;
+  display: inline-block;
+  width: 47px;
+  height: 20px;
+}
+.goToPage,
+.of1 {
+  left: 391px;
+  width: 105px;
+}
+.of1 {
+  left: 321px;
+  color: var(--color-darkslateblue);
+  width: 41px;
+}
+.btnGroup,
+.btnPrimaryLg,
+.frameIcon,
+.starIcon {
+  position: absolute;
+  height: 40.41%;
+  width: 2.67%;
+  top: 31.16%;
+  right: 97.33%;
+  bottom: 28.42%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.btnGroup,
+.btnPrimaryLg,
+.starIcon {
+  width: 1.57%;
+  right: 87.89%;
+  left: 10.53%;
+}
+.btnPrimaryLg,
+.starIcon {
+  width: 2.67%;
+  right: 67.92%;
+  left: 29.4%;
+  object-fit: contain;
+}
+.starIcon {
+  width: 1.57%;
+  right: 78.46%;
+  left: 19.97%;
+}
+.lineVector {
+  width: 60px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 503px;
+}
+.lineVector1 {
+  position: absolute;
+  top: 29.2px;
+  left: 636px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 50px;
+  height: 29.2px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.go,
+.lineVector2 {
+  position: absolute;
+  top: 5.5px;
+  left: 529px;
+  font-weight: 500;
+  display: inline-block;
+  width: 7px;
+  height: 20px;
+}
+.go {
+  top: 4.6px;
+  left: 596px;
+  color: var(--color-white);
+  width: 31px;
+}
+.frameVehicles {
+  position: absolute;
+  top: 970px;
+  left: 421px;
+  width: 636px;
+  height: 29.2px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-montserrat);
+}
+.frameOwner,
+.frameOwner1 {
+  position: absolute;
+  top: 950.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  width: 1441px;
+  height: 1px;
+}
+.frameOwner1 {
+  top: 204.5px;
+}
+.vehicles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.jobCards {
+  left: 184px;
+  font-weight: 500;
+}
+.frameAAG,
+.jobCards,
+.management {
+  position: absolute;
+  top: 0;
+}
+.management {
+  left: 384px;
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+}
+.frameAAG {
+  margin: 0;
+  left: 0;
+  width: 522px;
+  height: 24px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-montserrat);
+}
+.ownerChainIcon {
+  position: absolute;
+  height: 15.38%;
+  width: 2.22%;
+  top: 33.85%;
+  right: 0;
+  bottom: 50.77%;
+  left: 97.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupChild {
+  position: absolute;
+  top: 32.5px;
+  left: 393px;
+  width: 120px;
+  height: 3px;
+}
+.maskGroup,
+.vectorIcon {
+  position: absolute;
+  top: 56px;
+  left: 509px;
+  width: 540px;
+  height: 32.5px;
+}
+.vectorIcon {
+  height: 133.33%;
+  width: 133.44%;
+  top: -16.67%;
+  right: -16.88%;
+  bottom: -16.67%;
+  left: -16.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroup1 {
+  position: absolute;
+  height: 3.52%;
+  width: 2.22%;
+  top: 14.36%;
+  right: 4.79%;
+  bottom: 82.13%;
+  left: 92.99%;
+}
+.image21Icon {
+  position: absolute;
+  top: 125px;
+  left: 411px;
+  width: 94px;
+  height: 49px;
+  object-fit: cover;
+}
+.frameAAGLocation {
+  position: absolute;
+  top: 219px;
+  left: 40px;
+  width: 1359px;
+  height: 715px;
+}
+.ownerManagement {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .owners {
+    font-size: var(--font-size-lg);
+  }
+  .jobCards,
+  .management,
+  .vehicles {
+    font-size: var(--font-size-base);
+  }
+}

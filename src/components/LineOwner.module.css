@@ -1,0 +1,165 @@
+.chainsFrame,
+.garagesFrame,
+.groupNorwayLoc,
+.locationFrame {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 51px;
+}
+.garagesFrame,
+.groupNorwayLoc,
+.locationFrame {
+  left: 224.5px;
+}
+.groupNorwayLoc,
+.locationFrame {
+  left: 449.5px;
+}
+.groupNorwayLoc {
+  left: 674.5px;
+}
+.frame {
+  position: absolute;
+  top: 19px;
+  left: 535px;
+  width: 675px;
+  height: 50px;
+  overflow: hidden;
+}
+.aagGpc,
+.chains,
+.garages,
+.location {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.aagGpc {
+  top: 27px;
+  left: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-500);
+  width: 86px;
+}
+.chains,
+.garages,
+.location {
+  top: 0;
+  left: 561px;
+  width: 52px;
+}
+.garages,
+.location {
+  left: 786px;
+  width: 63px;
+}
+.location {
+  left: 1011px;
+  width: 67px;
+}
+.div,
+.frame2 {
+  top: 27px;
+  color: var(--color-darkslateblue);
+}
+.frame2 {
+  position: absolute;
+  left: 578px;
+  font-weight: 500;
+  display: inline-block;
+  width: 19px;
+}
+.div {
+  left: 809px;
+  width: 18px;
+}
+.div,
+.norway,
+.owner {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.norway {
+  top: 27px;
+  left: 1014px;
+  color: var(--color-darkslateblue);
+  width: 59px;
+}
+.owner {
+  top: 0;
+  left: 0;
+  width: 52px;
+}
+.groupParentIcon {
+  height: 48.98%;
+  width: 1.91%;
+  top: 22.45%;
+  right: 0;
+  bottom: 28.57%;
+  left: 98.09%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.groupParentIcon,
+.image23Icon,
+.vectorIcon {
+  position: absolute;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 46.94%;
+  width: 1.83%;
+  top: 26.53%;
+  right: 3.5%;
+  bottom: 26.53%;
+  left: 94.67%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.image23Icon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 373px;
+  width: 53px;
+  object-fit: cover;
+}
+.frame1 {
+  position: absolute;
+  top: 20px;
+  left: 62px;
+  width: 1258px;
+  height: 49px;
+  overflow: hidden;
+}
+.lineOwner,
+.lineOwnerChild {
+  position: absolute;
+  box-sizing: border-box;
+}
+.lineOwnerChild {
+  top: 18.5px;
+  left: 1209.5px;
+  border-right: 1px solid var(--color-gainsboro-100);
+  width: 1px;
+  height: 51px;
+}
+.lineOwner {
+  top: 315px;
+  left: calc(50% - 679.5px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  width: 100%;
+  height: 85px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-montserrat);
+}

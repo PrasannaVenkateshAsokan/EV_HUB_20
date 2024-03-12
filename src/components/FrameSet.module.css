@@ -1,0 +1,445 @@
+.image1Icon {
+  height: 93px;
+  width: 178px;
+  position: relative;
+  object-fit: cover;
+}
+.vehicles {
+  position: relative;
+  font-weight: 500;
+}
+.garageLabel,
+.textBox {
+  display: flex;
+  align-items: flex-start;
+}
+.textBox {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) 0 0;
+}
+.garageLabel {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.owners {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.goButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.frameRowChild {
+  height: 44px;
+  width: 324px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.searchByOwner {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.cardIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+  z-index: 1;
+}
+.frameRow {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-2xs) var(--padding-base) var(--padding-4xs)
+    var(--padding-4xl);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-400);
+}
+.pageIndicator {
+  flex: 1;
+  flex-direction: row;
+  gap: 0 14px;
+}
+.frameContainer,
+.locationGroup,
+.pageIndicator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  width: 508px;
+  flex-direction: row;
+  padding: 0 var(--padding-16xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+}
+.locationGroup {
+  width: 587px;
+  flex-direction: column;
+  gap: 45px 0;
+}
+.cardIcon1 {
+  height: 5px;
+  width: 12px;
+  position: absolute;
+  margin: 0 !important;
+  top: 11px;
+  right: -18.6px;
+}
+.jobCards {
+  white-space: nowrap;
+}
+.jobCards,
+.management {
+  position: relative;
+  font-weight: 500;
+}
+.pageTitleChild {
+  height: 3px;
+  width: 120px;
+  position: relative;
+}
+.pageTitle {
+  height: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.frameAnchor,
+.italyFlag,
+.pageTitle {
+  display: flex;
+  align-items: flex-start;
+}
+.frameAnchor {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8.5px 0;
+  color: var(--color-darkslateblue);
+}
+.italyFlag {
+  width: 358px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.containerLabel,
+.germanyFlag {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.germanyFlag {
+  width: 481px;
+  flex-direction: column;
+  padding: var(--padding-31xl) 0 0;
+  box-sizing: border-box;
+  max-width: 143%;
+  flex-shrink: 0;
+}
+.containerLabel {
+  height: 32.5px;
+  width: 337.4px;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.groupContainerIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.cardsIcon,
+.wraperIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 20px;
+}
+.cardsIcon {
+  top: 3px;
+  left: 19px;
+  width: 12px;
+  height: 5px;
+}
+.childVector {
+  width: 31px;
+  height: 20px;
+  position: relative;
+}
+.customVector,
+.frameWithChildren {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.frameWithChildren {
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-xl);
+  gap: 0 16px;
+}
+.frameChild,
+.maskGroupIcon,
+.vectorIcon {
+  width: 25px;
+  height: 20px;
+  position: relative;
+  display: none;
+}
+.frameChild,
+.maskGroupIcon {
+  width: 32px;
+  height: 36px;
+}
+.frameChild {
+  width: 140px;
+  height: 127px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.groupIcon,
+.profile {
+  position: relative;
+  z-index: 1;
+}
+.groupIcon {
+  height: 20.7px;
+  width: 20px;
+}
+.profile {
+  font-weight: 500;
+}
+.frameWithText,
+.groupTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupTitle {
+  gap: 0 13.2px;
+}
+.frameWithText {
+  padding: 0 23.799999999999272px 0 0;
+}
+.frameWithShape {
+  width: 70px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.lineStartCap,
+.pageNumber {
+  display: flex;
+  justify-content: flex-start;
+}
+.pageNumber {
+  height: 28.6px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7.9px 0;
+}
+.lineStartCap {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 2.2000000000007276px 0 var(--padding-11xs);
+}
+.customShapeChild {
+  width: 20px;
+  height: 15px;
+  position: relative;
+  z-index: 1;
+}
+.customShape {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.8000000000000114px 0 0;
+}
+.language {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.lineDivider {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-smi);
+  gap: 0 11.2px;
+}
+.textAlignLeft {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.lineRoundedCorners {
+  width: 74.4px;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.ownerDetailsIcon {
+  width: 15px;
+  height: 15.5px;
+  position: relative;
+  z-index: 1;
+}
+.frameWithSpacing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.6000000000000227px 0 0;
+}
+.logout {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.textAlignCenter,
+.textAlignRight,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textAlignRight {
+  gap: 0 13.2px;
+}
+.textAlignCenter,
+.vectorParent {
+  padding: 0 var(--padding-2xl) 0 var(--padding-base);
+}
+.vectorParent {
+  height: 127px;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 11.399999999999975px var(--padding-3xs) 14.199999999999989px;
+  gap: 11.13px;
+  z-index: 2;
+}
+.frameColumnContainer,
+.rectangleCorner {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleCorner {
+  height: 123px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.frameColumnContainer {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px 0;
+}
+.childFrames,
+.frameRowContainer,
+.frameSet {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameRowContainer {
+  width: 142px;
+  flex-direction: column;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.childFrames,
+.frameSet {
+  flex-direction: row;
+  max-width: 100%;
+}
+.childFrames {
+  flex: 1;
+  gap: 0 100px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-montserrat);
+}
+.frameSet {
+  width: 1422px;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 650px) {
+  .locationGroup {
+    gap: 22px 0;
+  }
+  .childFrames {
+    gap: 0 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .childFrames {
+    gap: 0 25px;
+  }
+}

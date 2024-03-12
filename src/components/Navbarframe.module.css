@@ -1,0 +1,163 @@
+.aagGpc {
+  position: absolute;
+  top: 47px;
+  left: 62px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-500);
+  display: inline-block;
+  width: 86px;
+}
+.chains,
+.earn,
+.garages,
+.location,
+.norway,
+.referral {
+  position: absolute;
+  top: 20px;
+  left: 623px;
+  font-weight: 500;
+  display: inline-block;
+  width: 52px;
+}
+.earn,
+.garages,
+.location,
+.norway,
+.referral {
+  left: 848px;
+  width: 63px;
+}
+.earn,
+.location,
+.norway,
+.referral {
+  left: 1073px;
+  width: 67px;
+}
+.earn,
+.norway,
+.referral {
+  top: 47px;
+  left: 640px;
+  color: var(--color-darkslateblue);
+  width: 19px;
+}
+.norway,
+.referral {
+  left: 871px;
+  width: 18px;
+}
+.norway {
+  left: 1076px;
+  width: 59px;
+}
+.giveaways {
+  position: absolute;
+  left: 534.5px;
+}
+.btnPrimaryLg,
+.giveaways,
+.star {
+  top: 18.5px;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 51px;
+}
+.btnPrimaryLg {
+  position: absolute;
+  left: 759.5px;
+}
+.star {
+  left: 984.5px;
+}
+.owner,
+.star,
+.star1 {
+  position: absolute;
+}
+.star1 {
+  top: 18.5px;
+  left: 1209.5px;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 51px;
+}
+.owner {
+  top: 20px;
+  left: 62px;
+  font-weight: 500;
+  display: inline-block;
+  width: 52px;
+}
+.frameListIcon,
+.vectorElementsIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorElementsIcon {
+  height: 83.33%;
+  width: 75%;
+  top: 8.33%;
+  right: 12.5%;
+  bottom: 8.33%;
+  left: 12.5%;
+}
+.vectorList {
+  position: absolute;
+  height: 28.24%;
+  width: 1.77%;
+  top: 36.47%;
+  right: 2.87%;
+  bottom: 35.29%;
+  left: 95.36%;
+}
+.image23Icon,
+.imageElementsIcon {
+  position: absolute;
+  object-fit: cover;
+}
+.imageElementsIcon {
+  height: 27.06%;
+  width: 1.69%;
+  top: 38.82%;
+  right: 6.11%;
+  bottom: 34.12%;
+  left: 92.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image23Icon {
+  top: 20px;
+  left: 435px;
+  width: 53px;
+  height: 49px;
+}
+.navbarframe {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 679.5px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  width: 100%;
+  height: 85px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-montserrat);
+}

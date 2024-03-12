@@ -1,0 +1,45 @@
+.frameNodeChild {
+  height: 81px;
+  width: 850px;
+  position: relative;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-steelblue);
+  display: none;
+  max-width: 100%;
+}
+.editProfile {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.frameNode,
+.textBlockNode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameNode {
+  flex: 1;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-steelblue);
+  justify-content: center;
+  padding: var(--padding-15xl) var(--padding-xl) var(--padding-xl)
+    var(--padding-2xl);
+  z-index: 1;
+}
+.textBlockNode {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .editProfile {
+    font-size: var(--font-size-lg);
+  }
+}

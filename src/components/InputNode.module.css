@@ -1,0 +1,171 @@
+.image1Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.conditionNode {
+  align-self: stretch;
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.vehicles {
+  position: relative;
+  font-weight: 500;
+}
+.jobCards {
+  white-space: nowrap;
+}
+.jobCards,
+.management {
+  position: relative;
+  font-weight: 500;
+}
+.ungroupNodeIcon {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.groupNode,
+.ifNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupNode {
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.ifNode {
+  flex-direction: row;
+  gap: 0 6px;
+}
+.textNodeChild {
+  height: 3px;
+  width: 120px;
+  position: relative;
+}
+.functionNode,
+.textNode {
+  justify-content: flex-start;
+}
+.textNode {
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.functionNode {
+  flex-direction: column;
+  gap: 8.5px 0;
+  color: var(--color-darkslateblue);
+}
+.functionNode,
+.mergeNode,
+.splitNode {
+  display: flex;
+  align-items: flex-start;
+}
+.splitNode {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-montserrat);
+}
+.mergeNode {
+  width: 540px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs-5);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleNodeIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.pathNodeIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 20px;
+}
+.unsplashvlbcscnrngIcon {
+  position: absolute;
+  top: 3px;
+  left: 19px;
+  width: 12px;
+  height: 5px;
+}
+.ellipseNode {
+  width: 31px;
+  height: 20px;
+  position: relative;
+}
+.circleNode {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.circleNode,
+.lineNode,
+.shapeNode {
+  display: flex;
+  justify-content: flex-start;
+}
+.lineNode {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 16px;
+}
+.shapeNode {
+  height: 71px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inputNode,
+.outputNode {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.outputNode {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.inputNode {
+  width: 1422px;
+  height: 124px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) var(--padding-12xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 825px) {
+  .splitNode {
+    display: none;
+  }
+  .mergeNode {
+    width: 0;
+  }
+}
